@@ -14,3 +14,26 @@ p {
   font-size: 16px;
   line-height: 1.6;
 }
+
+.highlight {
+  color: navy;
+  font-weight: bold;
+}
+
+#main-content {
+  background-color: white;
+  padding: 20px;
+}
+
+#achievements {
+  border: 2px solid navy;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+#footer {
+  background-color: #222;
+  text-align: center;
+  padding: 10px;
+}
+
