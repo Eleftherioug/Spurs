@@ -37,3 +37,42 @@ p {
   padding: 10px;
 }
 
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  background-color: lightgray;
+  padding: 20px;
+  flex: 1;
+}
+
+/* Responsive Design for screens smaller than 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav, footer {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
